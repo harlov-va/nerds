@@ -1,0 +1,23 @@
+# Файлы и папки операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы редактора
+.idea
+*.sublime*
+
+# Вспомогательные файлы
+*.log*
+node_modules/
+
+# Ненужные папки и файлы на гите
+.vscode/
+fonts/
+nerds-catalog-assets/
+nerds-index-assets/
+preview/
+nerds-catalog.psd
+nerds-index.psd
+specification-nerds.html.pdf
+styleguide.psd
+

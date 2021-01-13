@@ -428,10 +428,14 @@ button:focus {
 
 .price-controls label {
     display: inline-block;
-    width: 50%;
 
     font-size: 16px;
     text-transform: uppercase;
+}
+
+.price-controls label:first-child {
+    width: 52%;
+    margin-right: 10px;
 }
 
 .price-controls input {

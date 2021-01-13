@@ -1,238 +1,234 @@
 <!DOCTYPE html>
-<html lang="ru">
+    <html lang="ru">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Дизайн-студия «NЁRDS»</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Design studio "NЁRDS" </title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body>
-    <header class="main-header">
-        <nav class="main-navigation">
-            <div class="main-navigation-wrapper">
+    <body>
+        <header class="main-header">
+            <nav class="main-navigation">
+                <div class="main-navigation-wrapper">
+                    <div class="container">
+                        <a class="main-header-logo">
+                            <img src="svg/nerds-logo.svg" alt="NЁRDS design studio logo">
+                        </a>
+                        <ul class="site-navigation">
+                            <li class="site-navigation-current"> <a> Studio </a> </li>
+                            <li> <a href="clients.html"> Clients </a> </li>
+                            <li> <a href="catalog.html"> Shop </a> </li>
+                            <li> <a href="contacts.html"> Contacts </a> </li>
+                        </ul>
+                        <ul class="user-navigation">
+                            <li>
+                                <a class="cart-link" href="cart.html"> Shopping cart </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1 class="visually-hidden"> Design studio "NЁRDS" </h1>
+            <section class="slider">
                 <div class="container">
-                    <a class="main-header-logo">
-                        <img src="svg/nerds-logo.svg" alt="Логотип дизайн-студии «NЁRDS»">
-                    </a>
-                    <ul class="site-navigation">
-                        <li class="site-navigation-current"><a>Студия</a></li>
-                        <li><a href="clients.html">Клиенты</a></li>
-                        <li><a href="catalog.html">Магазин</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
-                    </ul>
-                    <ul class="user-navigation">
-                        <li>
-                            <a class="cart-link" href="cart.html">Корзина</a>
+                    <h2 class="visually-hidden"> Benefits </h2>
+                    <div class="slider-controls">
+                        <i class="active"> </i>
+                        <i> </i>
+                        <i> </i>
+                    </div>
+                    <ul class="slider-list">
+                        <li class="slider-item">
+                            <h3> Long, expensive, scrupulous. </h3>
+                            <p> Mathematically verified design<br>  for your website or mobile application. </p>
+                            <a class="slider-item-button button button-long" href="#"> Learn more </a>
+                        </li>
+                        <li class="slider-item">
+                            <h3> We love mathematics like no other </h3>
+                            <p> No creativity, just mathematical formulas for calculating ideal proportions. </p>
+                            <a class="slider-item-button button button-long" href="#"> Learn more </a>
+                        </li>
+                        <li class="slider-item">
+                            <h3> Only night, only hardcore </h3>
+                            <p> Work during the day like everyone else? We are against it. <br> Closer to midnight, work is just beginning. </p>
+                            <a class="slider-item-button button button-long" href="#"> Learn more </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <h1 class="visually-hidden">Дизайн-студия «NЁRDS»</h1>
-        <section class="slider">
-            <div class="container">
-                <h2 class="visually-hidden">Преимущества</h2>
-                <div class="slider-controls">
-                    <i class="active"></i>
-                    <i></i>
-                    <i></i>
-                </div>
-                <ul class="slider-list">
-                    <li class="slider-item">
-                        <h3>Долго, дорого,<br>скрупулезно.</h3>
-                        <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-                        <a class="slider-item-button button button-long" href="#">Узнать больше</a>
-                    </li>
-                    <li class="slider-item">
-                        <h3>Любим математику как никто другой</h3>
-                        <p> Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-                        <a class="slider-item-button button button-long" href="#">Узнать больше</a>
-                    </li>
-                    <li class="slider-item">
-                        <h3>Только ночь,<br>только хардкор</h3>
-                        <p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
-                        <a class="slider-item-button button button-long" href="#">Узнать больше</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="services">
-            <div class="container">
-                <h2 class="visually-hidden">Услуги</h2>
-                <ul class="services-list">
-                    <li class="services-item">
-                        <figure class="services-item__photo">
-                            <a href="#"><img src="img/illustration-1.png" width="300" heigth="146" alt="Веб-сайты"></a>
-                        </figure>
-                        <h3>Веб-сайты</h3>
-                        <p class="services-item____description">
-                            Мир никогда не будет прежним после того как увидит ваш сайт!
-                        </p>
-                        <button class="button">ЗАКАЗАТЬ</button>
-                    </li>
-                    <li class="services-item">
-                        <figure class="services-item__photo">
-                            <a href="#"><img src="img/illustration-2.png" width="300" heigth="146" alt="Приложения"></a>
-                        </figure>
-                        <h3>Приложения</h3>
-                        <p class="services-item____description">
-                            Покорите топ-10 приложений в AppStore и Google Play
-                        </p>
-                        <button class="button">ЗАКАЗАТЬ</button>
-                    </li>
-                    <li class="services-item">
-                        <figure class="services-item__photo">
-                            <a href="#"><img src="img/illustration-3.png" width="300" heigth="146"
-                                    alt="Презентации"></a>
-                        </figure>
-                        <h3>Презентации</h3>
-                        <p class="services-item____description">
-                            Вы даже не подозреваете,
-                            насколько вы изумительны!
-                        </p>
-                        <button class="button">ЗАКАЗАТЬ</button>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <div class="container">
-            <div class="index-columns">
-                <section class="studio">
-                    <h2>Мы — маленькая, но гордая
-                        дизайн-студия из Краснодара. </h2>
-                    <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
-                        превыше креатива. Работаем не покладая рук, как роботы.</p>
-                    <h3>Выполняем заказы на разработку:</h3>
-                    <ul class="studio-list">
-                        <li>Веб-сайтов любой сложности</li>
-                        <li>Мобильных приложений для iOS и Android</li>
-                        <li>Слайдшоу и видео для корпоративных презентаций</li>
-                    </ul>
-                </section>
-                <section class="statistics">
-                    <h2 class="visually-hidden">Статистика</h2>
-                    <img src="img/nerds-illustration.png" alt="Эмблема">
-                    <h3 class="statistics-description">с 2004 года Любим точность во всем:</h3>
-                    <ul class="statistics-list">
-                        <li>
-                            <p class="statistics__text-procent">146<span class="statistics__symbol-procent">%</span></p>
-                            <p>Уровень самоотдачи</p>
-                        </li>
-                        <li>
-                            <p class="statistics__text-procent">100<span class="statistics__symbol-procent">%</span></p>
-                            <p>Соблюдение
-                                сроков</p>
-                        </li>
-                        <li>
-                            <p class="statistics__text-procent">50<span class="statistics__symbol-procent">%</span></p>
-                            <p>Минимальная
-                                предоплата</p>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-        <section class="clients">
-            <div class="container">
-                <h2 class="visually-hidden">Наши клиенты</h2>
-                <ul class="clients-list">
-                    <li>
-                        <a href="https://htmlacademy.ru/"><img src="img/logo-1.png" width="199" heigth="68"
-                                alt="HTML Academy"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="img/logo-2.png" width="199" heigth="68" alt="Барбершоп «Бородинский»"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="img/logo-3.png" width="199" heigth="68" alt="Pink"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="img/logo-4.png" width="199" heigth="68" alt="Mishka"></a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-    </main>
-    <footer class="main-footer">
-        <section class="footer-contacts">
-            <h2 class="visually-hidden">Контакты</h2>
-            <div class="footer-contacts__map">
-                <figure>
-                    <img src="img/map.jpg" width="1440" heigth="416" alt="Map"></a>
-                </figure>
-                <!-- Здесь карта -->
-            </div>
-            <div class="footer-contacts__text">
-                <h3>NЁRDS DESIGN STUDIO</h3>
-                <p>191186, Санкт-Петербург, <br>
-                    ул. Б. Конюшенная, д. 19/8 </p>
-                <p>тел. +7 (812) 275-75-75</p>
-                <button class="write-us button">Напишите нам</button>
-            </div>
-        </section>
-        <div class="container">
-            <section class="footer-social">
-                <ul>
-                    <li><a href="#" class="social-button">
-                            <span class="visually-hidden">Вконтакте</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="15" viewBox="0 0 26 15">
-                                <path fill="#FFF"
-                                    d="M16.138 11.51c.956-.309 2.18 2.04 3.483 2.939.978.681 1.727.534 1.727.534l3.473-.05s1.815-.112.957-1.554c-.071-.12-.503-1.069-2.585-3.022-2.177-2.043-1.882-1.712.739-5.244 1.597-2.153 2.236-3.468 2.036-4.028-.192-.539-1.365-.399-1.365-.399L20.69.713c-.381.001-.704.119-.851.515-.003.004-.621 1.666-1.445 3.079-1.741 2.989-2.436 3.148-2.724 2.961-.661-.433-.494-1.737-.494-2.664 0-2.897.432-4.105-.846-4.417-.427-.104-.739-.172-1.828-.182-1.392-.021-2.574 0-3.244.329-.445.223-.786.712-.579.74.26.035.843.16 1.155.586.401.552.389 1.789.389 1.789s.229 3.411-.54 3.834c-.528.29-1.25-.302-2.803-3.016-.793-1.388-1.392-2.922-1.392-2.922s-.116-.285-.326-.441c-.25-.185-.6-.244-.6-.244L.848.684S.29.7.085.946c-.182.218-.015.668-.015.668s2.909 6.881 6.203 10.347c3.02 3.182 6.452 2.971 6.452 2.971h1.555s.469-.054.709-.312c.224-.24.214-.691.214-.691s-.031-2.109.935-2.419z" />
-                            </svg>
-                        </a></li>
-                    <li><a href="#" class="social-button">
-                            <span class="visually-hidden">Фейсбук</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
-                                <path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z" /></svg>
-                        </a></li>
-                    <li><a href="#" class="social-button">
-                            <span class="visually-hidden">Инстаграм</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-                                <path fill="#FFF"
-                                    d="M18 0H3C1.35 0 0 1.35 0 3v15c0 1.65 1.35 3 3 3h15c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zm-7.5 7c1.93 0 3.5 1.57 3.5 3.5S12.43 14 10.5 14 7 12.43 7 10.5 8.57 7 10.5 7zM18 18H3V9h1.181A6.504 6.504 0 0 0 4 10.5a6.5 6.5 0 1 0 13 0 6.45 6.45 0 0 0-.181-1.5H18v9zm0-11h-4V3h4v4z" />
-                            </svg>
-                        </a></li>
-                </ul>
-                <p>
-                    <b class="footer-slogan">Давайте дружить, это выгодно!</b>
-                    Скидка 10% для друзей из социальных сетей.
-                </p>
             </section>
-        </div>
-    </footer>
-    <section class="modal modal-appointment">
-        <h2>Напишите нам</h2>
-        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-            <p class="appointment-item">
-                <label for="appointment-name">Ваше имя:</label>
-                <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
-            </p>
-            <p class="appointment-item">
-                <label for="appointment-email">Ваш e-mail</label>
-                <input id="appointment-email" type="text" name="email" placeholder="email@example.com">
-            </p>
-            <p class="appointment-item">
-                <label for="appointment-text">Текст письма</label>
-                <textarea name="text" id="appointment-text" cols="30" rows="10"
-                    placeholder="В свободной форме"></textarea>
-            </p>
-            <button class="button button-long" type="submit">Отправить</button>
-        </form>
-        
-        <svg class="modal-close" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-            <path fill="#FB565A"
-                d="M13.328 10.5l7.371-7.371a1.003 1.003 0 0 0 0-1.414L19.285.3a1.003 1.003 0 0 0-1.414 0L10.5 7.672 3.129.301a1.003 1.003 0 0 0-1.414 0L.301 1.715a1.003 1.003 0 0 0 0 1.414L7.672 10.5.301 17.871a1.003 1.003 0 0 0 0 1.414l1.415 1.414a1.003 1.003 0 0 0 1.414 0l7.371-7.371 7.371 7.371a1.003 1.003 0 0 0 1.414 0l1.414-1.414a1.003 1.003 0 0 0 0-1.414L13.328 10.5z" />
-        </svg>
-    </section>
-    <script src="js/scripts.js"></script>
-</body>
+            <section class="services">
+                <div class="container">
+                    <h2 class="visually-hidden"> Services </h2>
+                    <ul class="services-list">
+                        <li class="services-item">
+                            <figure class="services-item__photo">
+                                <a href="#"> <img src="img/illustration-1.png" width="300" heigth="146" alt="Websites"> </a>
+                            </figure>
+                            <h3> Websites </h3>
+                            <p class="services-item____description">
+                                The world will never be the same after seeing your site!
+                            </p>
+                            <button class="button"> ORDER </button>
+                        </li>
+                        <li class="services-item">
+                            <figure class="services-item__photo">
+                                <a href="#"> <img src="img/illustration-2.png" width="300" heigth="146" alt="Applications"> </a>
+                            </figure>
+                            <h3> Applications </h3>
+                            <p class="services-item____description">
+                                Conquer the top 10 apps in the AppStore and Google Play
+                            </p>
+                            <button class="button"> ORDER </button>
+                        </li>
+                        <li class="services-item">
+                            <figure class="services-item__photo">
+                                <a href="#"> <img src="img/illustration-3.png" width="300" heigth="146" alt="Presentations"> </a>
+                            </figure>
+                            <h3> Presentations </h3>
+                            <p class="services-item____description">
+                                You don't even know
+                                how amazing you are!
+                            </p>
+                            <button class="button"> ORDER </button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="container">
+                <div class="index-columns">
+                    <section class="studio">
+                        <h2> We are small but proud
+                            design studio from Krasnodar. </h2>
+                        <p> We adhere to the principles of minimalism and purity. We put a mathematical calculation
+                            above creativity. We work tirelessly like robots. </p>
+                        <h3> We carry out development orders: </h3>
+                        <ul class="studio-list">
+                            <li> Websites of any complexity </li>
+                            <li> Mobile apps for iOS and Android </li>
+                            <li> Slideshow and video for corporate presentations </li>
+                        </ul>
+                    </section>
+                    <section class="statistics">
+                        <h2 class="visually-hidden"> Statistics </h2>
+                        <img src="img/nerds-illustration.png" alt="Emblem">
+                        <h3 class="statistics-description"> since 2004 We love accuracy in everything: </h3>
+                        <ul class="statistics-list">
+                            <li>
+                                <p class="statistics__text-procent">146<span class="statistics__symbol-procent">%</span> </p>
+                                <p> Level of dedication </p>
+                            </li>
+                            <li>
+                                <p class="statistics__text-procent">100<span class="statistics__symbol-procent">%</span> </p>
+                                <p> Compliance
+                                    deadlines </p>
+                            </li>
+                            <li>
+                                <p class="statistics__text-procent">50<span class="statistics__symbol-procent">%</span> </p>
+                                <p> Minimum
+                                    prepayment </p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <section class="clients">
+                <div class="container">
+                    <h2 class="visually-hidden"> Our clients </h2>
+                    <ul class="clients-list">
+                        <li>
+                            <a href="https://htmlacademy.com/"> <img src="img/logo-1.png" width="199" heigth="68" alt="HTML Academy"> </a>
+                        </li>
+                        <li>
+                            <a href="#"> <img src="img/logo-2.png" width="199" heigth="68" alt="Borodinsky Barbershop"> </a>
+                        </li>
+                        <li>
+                            <a href="#"> <img src="img/logo-3.png" width="199" heigth="68" alt="Pink"> </a>
+                        </li>
+                        <li>
+                            <a href="#"> <img src="img/logo-4.png" width="199" heigth="68" alt="Mishka"> </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-</html>
+        </main>
+        <footer class="main-footer">
+            <section class="footer-contacts">
+                <h2 class="visually-hidden"> Contacts </h2>
+                <div class="footer-contacts__map">
+                    <figure>
+                        <img src="img/map.jpg" width="1440" heigth="416" alt="Map"> </a>
+                    </figure>
+                    <! - Here's a map ->
+                </div>
+                <div class="footer-contacts__text">
+                    <h3> NЁRDS DESIGN STUDIO </h3>
+                    <p> 191186, St. Petersburg, <br>
+                        st. B. Konyushennaya, 19/8 </p>
+                    <p> tel. +7 (812) 275-75-75 </p>
+                    <button class="write-us button"> Email us </button>
+                </div>
+            </section>
+            <div class="container">
+                <section class="footer-social">
+                    <ul>
+                        <li> <a href="#" class="social-button">
+                                <span class="visually-hidden">Vkontakte</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="15" viewBox="0 0 26 15">
+                                    <path fill="#FFF"
+                                    d="M16.138 11.51c.956-.309 2.18 2.04 3.483 2.939.978.681 1.727.534 1.727.534l3.473-.05s1.815-.112.957-1.554c-.071-.12-.503-1.069-2.585-3.022-2.177-2.043-1.882-1.712.739-5.244 1.597-2.153 2.236-3.468 2.036-4.028-.192-.539-1.365-.399-1.365-.399L20.69.713c-.381.001-.704.119-.851.515-.003.004-.621 1.666-1.445 3.079-1.741 2.989-2.436 3.148-2.724 2.961-.661-.433-.494-1.737-.494-2.664 0-2.897.432-4.105-.846-4.417-.427-.104-.739-.172-1.828-.182-1.392-.021-2.574 0-3.244.329-.445.223-.786.712-.579.74.26.035.843.16 1.155.586.401.552.389 1.789.389 1.789s.229 3.411-.54 3.834c-.528.29-1.25-.302-2.803-3.016-.793-1.388-1.392-2.922-1.392-2.922s-.116-.285-.326-.441c-.25-.185-.6-.244-.6-.244L.848.684S.29.7.085.946c-.182.218-.015.668-.015.668s2.909 6.881 6.203 10.347c3.02 3.182 6.452 2.971 6.452 2.971h1.555s.469-.054.709-.312c.224-.24.214-.691.214-.691s-.031-2.109.935-2.419z" />
+                                </svg>
+                            </a> </li>
+                        <li> <a href="#" class="social-button">
+                                <span class="visually-hidden"> Facebook </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
+                                    <path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z" /></svg>
+                                </svg>
+                            </a> </li>
+                        <li> <a href="#" class="social-button">
+                                <span class="visually-hidden"> Instagram </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                                    <path fill="#FFF"
+                                        d="M18 0H3C1.35 0 0 1.35 0 3v15c0 1.65 1.35 3 3 3h15c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zm-7.5 7c1.93 0 3.5 1.57 3.5 3.5S12.43 14 10.5 14 7 12.43 7 10.5 8.57 7 10.5 7zM18 18H3V9h1.181A6.504 6.504 0 0 0 4 10.5a6.5 6.5 0 1 0 13 0 6.45 6.45 0 0 0-.181-1.5H18v9zm0-11h-4V3h4v4z" />
+                                </svg>
+                            </a> </li>
+                    </ul>
+                    <p>
+                        <b class="footer-slogan"> Let's be friends, it's profitable! </b>
+                        10% discount for friends from social networks.
+                    </p>
+                </section>
+            </div>
+        </footer>
+        <section class="modal modal-appointment">
+            <h2> Email us </h2>
+            <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+                <p class="appointment-item">
+                    <label for="appointment-name"> Your name: </label>
+                    <input id="appointment-name" type="text" name="name" value="" placeholder="First name Last name">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-email"> Your e-mail </label>
+                    <input id="appointment-email" type="text" name="email" placeholder="email@example.com">
+                </p>
+                <p class="appointment-item">
+                    <label for="appointment-text"> Email body </label>
+                    <textarea name="text" id="appointment-text" cols="30" rows="10" placeholder="Free-form"> </textarea>
+                </p>
+                <button class="button button-long" type="submit"> Submit </button>
+            </form>
+
+            <svg class="modal-close" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                <path fill="#FB565A" d="M13.328 10.5l7.371-7.371a1.003 1.003 0 0 0 0-1.414L19.285.3a1.003 1.003 0 0 0-1.414 0L10.5 7.672 3.129.301a1.003 1.003 0 0 0-1.414 0L .301 1.715a1.003 1.003 0 0 0 0 1.414L7.672 10.5.301 17.871a1.003 1.003 0 0 0 0 1.414l1.415 1.414a1.003 1.003 0 0 0 1.414 0l7.371-7.371 7.371 7.371a1.003 1.003 0 0 0 1.414 0l1.414-1.414a1.003 1.003 0 0 0 0-1.414L13.328 10.5z " />
+            </svg>
+        </section>
+        <script src="js/scripts.js"> </script>
+    </body>
+
+    </html>
